@@ -1,4 +1,4 @@
-Project web site: jsreese92.github.io/Chitto/
+Project web site: www.jsreese92.github.io/Chitto/
 
 Helpful link for setting up Unity with git: http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control
 
