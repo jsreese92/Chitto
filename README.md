@@ -1,4 +1,4 @@
-Project web site [jsreese92.github.io/Chitto/](jsreese92.github.io/Chitto/)
+Project web site [jsreese92.github.io/Chitto/]: http://jsreese92.github.io/Chitto/
 
 Helpful link for setting up Unity with git: http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control
 
