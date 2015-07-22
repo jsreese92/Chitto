@@ -1,3 +1,5 @@
+Project web site: jsreese92.github.io/Chitto/
+
 Helpful link for setting up Unity with git: http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control
 
 The tl;dr is that we only need to sync Assets/ and ProjectSettings/
