@@ -9,11 +9,11 @@ public class PlayerController : MonoBehaviour {
 	private Vector3 movement; 
 	private int floorMask; // mask that goes across the whole ground, used for rotation
 	private float camRayLength = 100f;
+	private Animator anim;
 
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody>();
-
 
 	}
 
@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		// layer for the floor
 		floorMask = LayerMask.GetMask ("Ground");
+		anim = GetComponent <Animator> ();
 	}
 
 	// for physics stuff
@@ -34,6 +35,7 @@ public class PlayerController : MonoBehaviour {
 		// rb.AddForce (movement * speed);
 		Move (moveHorizontal, moveVertical);
 		Turn ();
+		Animating (moveHorizontal, moveVertical);
 	}
 
 	void Move (float h, float v) 
@@ -69,6 +71,12 @@ public class PlayerController : MonoBehaviour {
 			// set player's roation to this rotation
 			rb.MoveRotation (newRotation);
 		}
+	}
+
+	void Animating(float h, float v)
+	{
+		bool isWalking = (h != 0f || v != 0f);
+		anim.SetBool ("isWalking", isWalking);
 	}
 
 

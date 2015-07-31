@@ -79,13 +79,625 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_control_L
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle/LeftToes
+        weight: 1
+      - path: Armature/Root/Leg_control_R
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle/RightToes
+        weight: 1
+      - path: Armature/Root/LowerTorse
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur/LeftShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur/RightShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/Head
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist/LeftFingers
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist/RightFingers
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_control_L
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle/LeftToes
+        weight: 1
+      - path: Armature/Root/Leg_control_R
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle/RightToes
+        weight: 1
+      - path: Armature/Root/LowerTorse
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur/LeftShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur/RightShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/Head
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist/LeftFingers
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist/RightFingers
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idol_Final
+      takeName: Idol_Final
+      firstFrame: 0
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_control_L
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle/LeftToes
+        weight: 1
+      - path: Armature/Root/Leg_control_R
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle/RightToes
+        weight: 1
+      - path: Armature/Root/LowerTorse
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur/LeftShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur/RightShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/Head
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist/LeftFingers
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist/RightFingers
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idol_Final_001
+      takeName: Idol_Final_001
+      firstFrame: 0
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_control_L
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle/LeftToes
+        weight: 1
+      - path: Armature/Root/Leg_control_R
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle/RightToes
+        weight: 1
+      - path: Armature/Root/LowerTorse
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur/LeftShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur/RightShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/Head
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist/LeftFingers
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist/RightFingers
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump_blocking
+      takeName: Jump_blocking
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_control_L
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle/LeftToes
+        weight: 1
+      - path: Armature/Root/Leg_control_R
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle/RightToes
+        weight: 1
+      - path: Armature/Root/LowerTorse
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur/LeftShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur/RightShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/Head
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist/LeftFingers
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist/RightFingers
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump_Final
+      takeName: Jump_Final
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_control_L
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle/LeftToes
+        weight: 1
+      - path: Armature/Root/Leg_control_R
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle/RightToes
+        weight: 1
+      - path: Armature/Root/LowerTorse
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur/LeftShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur/RightShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/Head
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist/LeftFingers
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist/RightFingers
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk_Done
+      takeName: Walk_Done
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_control_L
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle/LeftToes
+        weight: 1
+      - path: Armature/Root/Leg_control_R
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle/RightToes
+        weight: 1
+      - path: Armature/Root/LowerTorse
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur/LeftShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur/RightShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/Head
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist/LeftFingers
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist/RightFingers
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk_Polish
+      takeName: Walk_Polish
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_control_L
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_L/LeftAnkle/LeftToes
+        weight: 1
+      - path: Armature/Root/Leg_control_R
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle
+        weight: 1
+      - path: Armature/Root/Leg_control_R/RightAnkle/RightToes
+        weight: 1
+      - path: Armature/Root/LowerTorse
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/LeftFemur/LeftShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur
+        weight: 1
+      - path: Armature/Root/LowerTorse/RightFemur/RightShin
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/Head
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/LeftUpperArm/LeftLowerArm/LeftWrist/LeftFingers
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Armature/Root/LowerTorse/UpperTorso/RightUpperArm/RightLowerArm/RightWrist/RightFingers
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
